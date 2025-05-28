@@ -14,6 +14,14 @@ body {
   font-size: larger;
 }
 
+.bouton-inscription {
+  background-color: #2e7d32;
+}
+
+.bouton-connexion {
+  background-color: #607d8b;
+}
+
 .taille-input {
   width: 25rem;
   height: auto;
