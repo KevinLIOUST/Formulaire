@@ -19,10 +19,10 @@
         crossorigin="anonymous"></script>
 
     <!-- Lien vers le fichier css pour le Web Design -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/inscription.css">
 </head>
 
-<body class="bg-dark">
+<body class="bg-beige">
 
     <!-- Pour le header -->
     <header class="d-flex justify-content-start align-items-center p-2 bg-vert">
@@ -52,48 +52,104 @@
         </nav>
     </header>
 
-    <!-- Formulaire d'inscription au club de tir de compétition -->
-    <form class="d-grid" action="compte-cree.html">
+    <main>
+        <h1 class="text-noir text-center mt-3">Inscription</h1>
 
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <!-- Pour le prénom -->
-                    <label class="text-white m-5" for="prenom">Prénom : </label>
-                    <input class="taille-input" type="text" id="prenom">
+        <!-- Formulaire d'inscription au club de tir de compétition -->
+        <form class="d-grid" action="compte-cree.html">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!-- Pour le prénom -->
+                        <label class="taille-label text-noir m-4 text-left" for="prenom">Prénom : </label>
+                        <input class="taille-input text-left bg-bleu-pluie" name="prenom" type="text" id="prenom">
+                    </div>
+                    <div class="col">
+                        <!-- Pour le nom -->
+                        <label class="taille-label text-noir m-4 text-left" for="nom">Nom : </label>
+                        <input class="taille-input text-left bg-bleu-pluie" name="nom" type="tel" id="nom">
+                    </div>
                 </div>
-                <div class="col">
-                    <!-- Pour le nom -->
-                    <label class="text-white m-5" for="telephone">Téléphone : </label>
-                    <input class="taille-input" type="tel" id="telephone">
+                <div class="row">
+                    <div class="col">
+                        <!-- Pour le mail -->
+                        <label class="taille-label text-noir m-4 text-left" for="email">Adresse e-mail : </label>
+                        <input class="taille-input text-left bg-bleu-pluie" name="email" type="email" id="email">
+                    </div>
+                    <div class="col">
+                        <!-- Pour le téléphone -->
+                        <label class="taille-label text-noir m-4 text-left" for="telephone">Téléphone : </label>
+                        <input class="taille-input text-left bg-bleu-pluie" name="telephone" type="tel" id="telephone">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- Pour l'adresse -->
+                        <label class="taille-label text-noir m-4 text-left" for="adresse">Adresse : </label>
+                        <input class="taille-input text-left bg-bleu-pluie" name="adresse" type="text" id="adresse">
+                    </div>
+                    <div class="col">
+                        <!-- Pour le mot de passe -->
+                        <label class="taille-label text-noir m-4 text-left" for="mdp">Mot de passe : </label>
+                        <input class="taille-input text-left bg-bleu-pluie" name="mdp" type="password" id="mdp">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- Pour le select -->
+                        <label class="taille-label text-noir m-4 text-left" for="select">Comment avez-vous connu le site
+                            :
+                        </label>
+                        <select class="taille-input text-left bg-bleu-pluie" name="select" aria-label="select"
+                            id="select">
+                            <option selected>3 choix possibles</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <!-- Pour le mot de passe -->
+                        <label class="taille-label text-noir m-4" for="confirm-mdp">Confirmer le mot de passe : </label>
+                        <input class="taille-input text-left bg-bleu-pluie" name="confirm-mdp" type="password"
+                            id="confirm-mdp">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- Pour les boutons radio -->
+                        <label class="taille-label text-noir m-4" for="confirm-mdp">Préférence de communication :
+                        </label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault1" id="radioDefault1">
+                            <label class="form-check-label" for="radioDefault1">
+                                SMS
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault2" id="radioDefault2">
+                            <label class="form-check-label" for="radioDefault2">
+                                Mail
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault3" id="radioDefault3">
+                            <label class="form-check-label" for="radioDefault3">
+                                Je ne veux pas
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Pour la checkbox -->
+                        <label class="taille-label text-noir m-4 text-left" for="select">J'ai lu, j'ai tout compris
+                        </label>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <!-- Pour le mail -->
-                    <label class="text-white m-5" for="email">Adresse e-mail : </label>
-                    <input class="taille-input" type="email" id="email">
-                </div>
-                <div class="col">
-                    <!-- Pour le téléphone -->
-                    <label class="text-white m-5" for="telephone">Téléphone : </label>
-                    <input class="taille-input" type="tel" id="telephone">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <!-- Pour le mail -->
-                    <label class="text-white m-5" for="email">Adresse e-mail : </label>
-                    <input class="taille-input" type="email" id="email">
-                </div>
-                <div class="col">
-                    <!-- Pour le téléphone -->
-                    <label class="text-white m-5" for="telephone">Téléphone : </label>
-                    <input class="taille-input" type="tel" id="telephone">
-                </div>
-            </div>
-        </div>
-    </form>
+        </form>
+    </main>
 
     <!-- Pour le footer -->
     <footer class="footer mt-5 p-2">
