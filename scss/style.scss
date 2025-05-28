@@ -9,6 +9,56 @@ body {
   background-color: #f5f5dc;
 }
 
+// Pour le texte en beige
+.text-beige {
+  color: #f5f5dc;
+}
+
+// Pour le texte en vert
+.text-vert {
+  color: #2e7d32;
+}
+
+// Pour le texte en marron
+.text-marron {
+  color: #8d6e63;
+}
+
+// Pour le texte en noir
+.text-noir {
+  color: #333333;
+}
+
+// Pour le texte en bleu pluie
+.text-bleu-pluie {
+  color: #607d8b;
+}
+
+// Pour le background en vert
+.bg-vert {
+  background-color: #2e7d32;
+}
+
+// Pour le background en beige
+.bg-beige {
+  background-color: #f5f5dc;
+}
+
+// Pour le background en marron
+.bg-marron {
+  background-color: #8d6e63;
+}
+
+// Pour le background en noir
+.bg-noir {
+  background-color: #333333;
+}
+
+// Pour le background en bleu pluie
+.bg-bleu-pluie {
+  background-color: #607d8b;
+}
+
 // Taille des boutons
 .taille-bouton {
   width: 15rem;
@@ -37,4 +87,18 @@ body {
 .taille-logo {
   width: 10%;
   height: 10%;
+}
+
+// Pour le footer
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: #8d6e63;
+}
+
+// Liens utiles dans le footer
+.liens-utiles {
+  height: 37%;
 }
