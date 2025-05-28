@@ -1,15 +1,12 @@
-// Importation de la police d'écriture
 @font-face {
-  font-family: 'Capture it';
-  src: url('/font/Capture\ it.ttf');
+  font-family: "Capture it";
+  src: url("/font/Capture it.ttf");
 }
-
 body {
-  font-family: 'Capture it';
+  font-family: "Capture it";
   background-color: #f5f5dc;
 }
 
-// Taille des boutons
 .taille-bouton {
   width: 15rem;
   height: auto;
@@ -17,14 +14,14 @@ body {
   font-size: larger;
 }
 
-// Taille des champs pour les informations
 .taille-input {
   width: 25rem;
   height: auto;
 }
 
-// Taille du logo
 .taille-logo {
   width: 10%;
   height: 10%;
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -17,20 +17,53 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
+
+    <!-- Lien vers le fichier css pour le Web Design -->
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
 
+    <!-- Pour le header -->
+    <header class="d-flex justify-content-start align-items-center p-2">
+
+        <!-- Logo du site -->
+        <img class="taille-logo" src="/img/Logo_site_3.png" alt="Logo_site_3.png">
+
+        <!-- Barre de navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link ms-5 mx-5" href="confirmation.html">Connexion</a>
+                        <a class="nav-link ms-5 mx-5" href="inscription.html">Inscription</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="m-5 text-center text-danger">Bonjour ! Ceci est un entrainement pour faire un formulaire pour un club de
+        tir de
+        compétition pour
+        le sport !
+    </h1>
+
     <!-- Formulaire pour choisir entre se connecter et inscription -->
-    <div>
+    <div class="d-flex justify-content-center align-items-center mb-5">
         <form action="confirmation.html">
-            <button>Se connecter</button>
+            <button class="taille-bouton rounded-2 bg-secondary text-white">Se connecter</button>
         </form>
     </div>
 
-    <div>
+    <div class="d-flex justify-content-center align-items-center">
         <form action="inscription.html">
-            <button>Inscription</button>
+            <button class="taille-bouton rounded-2 bg-secondary text-white">Inscription</button>
         </form>
     </div>
 </body>
