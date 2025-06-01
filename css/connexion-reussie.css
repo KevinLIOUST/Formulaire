@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Capture it";
+  src: url("/font/Capture it.ttf");
+}
+body {
+  font-family: "Capture it";
+  background-color: #f5f5dc;
+}
+
+.text-beige {
+  color: #f5f5dc;
+}
+
+.text-vert {
+  color: #2e7d32;
+}
+
+.text-marron {
+  color: #8d6e63;
+}
+
+.text-noir {
+  color: #333333;
+}
+
+.text-bleu-pluie {
+  color: #607d8b;
+}
+
+.bg-vert {
+  background-color: #2e7d32;
+}
+
+.bg-beige {
+  background-color: #f5f5dc;
+}
+
+.bg-marron {
+  background-color: #8d6e63;
+}
+
+.bg-noir {
+  background-color: #333333;
+}
+
+.bg-bleu-pluie {
+  background-color: #607d8b;
+}
+
+.taille-logo {
+  width: 10%;
+  height: 10%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: #8d6e63;
+}
+
+.liens-utiles {
+  height: 37%;
+}
+
+/*# sourceMappingURL=connexion-reussie.css.map */
