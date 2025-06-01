@@ -1,82 +1,71 @@
+// Importation de la police d'écriture
 @font-face {
-  font-family: "Capture it";
-  src: url("/font/Capture it.ttf");
+  font-family: 'Capture it';
+  src: url('/font/Capture\ it.ttf');
 }
+
 body {
-  font-family: "Capture it";
+  font-family: 'Capture it';
   background-color: #f5f5dc;
 }
 
+// Pour le texte en beige
 .text-beige {
   color: #f5f5dc;
 }
 
+// Pour le texte en vert
 .text-vert {
   color: #2e7d32;
 }
 
+// Pour le texte en marron
 .text-marron {
   color: #8d6e63;
 }
 
+// Pour le texte en noir
 .text-noir {
   color: #333333;
 }
 
+// Pour le texte en bleu pluie
 .text-bleu-pluie {
   color: #607d8b;
 }
 
+// Pour le background en vert
 .bg-vert {
   background-color: #2e7d32;
 }
 
+// Pour le background en beige
 .bg-beige {
   background-color: #f5f5dc;
 }
 
+// Pour le background en marron
 .bg-marron {
   background-color: #8d6e63;
 }
 
+// Pour le background en noir
 .bg-noir {
   background-color: #333333;
 }
 
+// Pour le background en bleu pluie
 .bg-bleu-pluie {
   background-color: #607d8b;
 }
 
-.taille-bouton {
-  width: 18rem;
-  height: auto;
-  padding: 0.5rem;
-  font-size: larger;
-}
-
-.bouton-inscription {
-  background-color: #2e7d32;
-}
-
-.taille-input {
-  width: 15rem;
-  height: auto;
-}
-
-.taille-label {
-  width: 14rem;
-  height: auto;
-  font-size: small;
-}
-
-.taille-connaitre-site {
-  font-size: 0.75rem;
-}
-
+// Taille du logo
 .taille-logo {
   width: 10%;
   height: 10%;
 }
+
+// Pour le footer
 
 .footer {
   position: absolute;
@@ -85,13 +74,7 @@ body {
   background-color: #8d6e63;
 }
 
+// Liens utiles dans le footer
 .liens-utiles {
   height: 37%;
 }
-
-.error {
-  color: red;
-  font-size: 0.9em;
-}
-
-/*# sourceMappingURL=inscription.css.map */

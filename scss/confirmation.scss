@@ -59,6 +59,12 @@ body {
   background-color: #607d8b;
 }
 
+// Taille du logo
+.taille-logo {
+  width: 10%;
+  height: 10%;
+}
+
 // Taille des boutons
 .taille-bouton {
   width: 18rem;
@@ -67,33 +73,21 @@ body {
   font-size: larger;
 }
 
-// Pour le bouton d'inscription de la page d'inscription
-.bouton-inscription {
-  background-color: #2e7d32;
-}
-
 // Taille des champs pour les informations
 .taille-input {
-  width: 15rem;
+  width: 13rem;
   height: auto;
 }
 
 // Pour la taille des labels
 .taille-label {
-  width: 14rem;
+  width: 10rem;
   height: auto;
-  font-size: small;
 }
 
-// Pour la taille pour savoir comment on a connu le site
-.taille-connaitre-site {
-  font-size: 0.75rem;
-}
-
-// Taille du logo
-.taille-logo {
-  width: 10%;
-  height: 10%;
+// Pour le bouton pour se connecter
+.bouton-connexion {
+  background-color: #2e7d32;
 }
 
 // Pour le footer
@@ -108,10 +102,4 @@ body {
 // Liens utiles dans le footer
 .liens-utiles {
   height: 37%;
-}
-
-// Pour l'erreur de la confirmation du mot de passe
-.error {
-  color: red;
-  font-size: 0.9em;
 }

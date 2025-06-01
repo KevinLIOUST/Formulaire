@@ -47,6 +47,11 @@ body {
   background-color: #607d8b;
 }
 
+.taille-logo {
+  width: 10%;
+  height: 10%;
+}
+
 .taille-bouton {
   width: 18rem;
   height: auto;
@@ -54,28 +59,18 @@ body {
   font-size: larger;
 }
 
-.bouton-inscription {
-  background-color: #2e7d32;
-}
-
 .taille-input {
-  width: 15rem;
+  width: 13rem;
   height: auto;
 }
 
 .taille-label {
-  width: 14rem;
+  width: 10rem;
   height: auto;
-  font-size: small;
 }
 
-.taille-connaitre-site {
-  font-size: 0.75rem;
-}
-
-.taille-logo {
-  width: 10%;
-  height: 10%;
+.bouton-connexion {
+  background-color: #2e7d32;
 }
 
 .footer {
@@ -89,9 +84,4 @@ body {
   height: 37%;
 }
 
-.error {
-  color: red;
-  font-size: 0.9em;
-}
-
-/*# sourceMappingURL=inscription.css.map */
+/*# sourceMappingURL=confirmation.css.map */
