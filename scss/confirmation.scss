@@ -90,12 +90,20 @@ body {
   background-color: #2e7d32;
 }
 
-// Pour le footer
-
-.footer {
+// Pour le footer en version desktop
+.footer-desktop {
   position: absolute;
   width: 100%;
   height: 20%;
+  background-color: #8d6e63;
+}
+
+// Pour le footer en version mobile
+
+.footer-mobile {
+  position: absolute;
+  width: 100%;
+  height: 37%;
   background-color: #8d6e63;
 }
 
