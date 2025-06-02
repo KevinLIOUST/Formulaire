@@ -59,10 +59,16 @@ body {
   background-color: #607d8b;
 }
 
-// Taille du logo
-.taille-logo {
-  width: 10%;
-  height: 10%;
+// Taille du logo pour la version desktop
+.taille-logo-desktop {
+  width: 12rem;
+  height: 12rem;
+}
+
+// Taille du logo pour la version mobile
+.taille-logo-mobile {
+  width: 5rem;
+  height: 5rem;
 }
 
 // Pour le footer en version desktop

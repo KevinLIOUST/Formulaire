@@ -67,9 +67,14 @@ body {
   height: auto;
 }
 
-.taille-logo {
-  width: 10%;
-  height: 10%;
+.taille-logo-desktop {
+  width: 12rem;
+  height: 12rem;
+}
+
+.taille-logo-mobile {
+  width: 5rem;
+  height: 5rem;
 }
 
 .footer-desktop {

@@ -27,29 +27,39 @@
     <!-- Pour le header -->
     <header class="d-flex justify-content-start align-items-center p-2 bg-vert">
 
-        <!-- Logo du site -->
-        <img class="taille-logo" src="/img/Logo_site_3.png" alt="Logo_site_3.png">
+        <!-- Logo du site en version desktop -->
+        <div class="justify-content-start align-items-start d-none d-lg-block">
+            <img class="taille-logo-desktop" src="/img/Logo_site_3.png" alt="Logo_site_3.png">
+        </div>
+
+        <!-- Logo du site en version mobile -->
+        <div class="justify-content-start align-items-start d-sm-none d-sm-block">
+            <img class="taille-logo-mobile" src="/img/Logo_site_3.png" alt="Logo_site_3.png">
+        </div>
+
 
         <!-- Barre de navigation -->
-        <nav class="navbar navbar-expand-lg fs-5">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link ms-4 mx-5" href="index.html">Accueil</a>
-                        <a class="nav-link ms-5 mx-5" href="confirmation.html">Connexion</a>
-                        <a class="nav-link ms-5 mx-5" href="inscription.html">Inscription</a>
-                        <a class="nav-link ms-5 mx-5" href="activites.html">Activités</a>
-                        <a class="nav-link ms-4 mx-5" href="contact.html">Contact</a>
-                        <a class="nav-link ms-4 mx-5" href="apropos.html">A propos</a>
+        <div>
+            <nav class="navbar navbar-expand-lg fs-5 d-flex">
+                <div class="container-fluid">
+                    <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link ms-4 mx-5" href="index.html">Accueil</a>
+                            <a class="nav-link ms-5 mx-5" href="confirmation.html">Connexion</a>
+                            <a class="nav-link ms-5 mx-5" href="inscription.html">Inscription</a>
+                            <a class="nav-link ms-5 mx-5" href="activites.html">Activités</a>
+                            <a class="nav-link ms-4 mx-5" href="contact.html">Contact</a>
+                            <a class="nav-link ms-4 mx-5" href="apropos.html">A propos</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main>
